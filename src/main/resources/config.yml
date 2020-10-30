@@ -1,0 +1,3 @@
+# The file type that the command log will output to:
+# Supported file types/values: 'csv', 'txt'
+output-file-type: csv
