@@ -6,15 +6,15 @@
 
     <groupId>com.creativecommmons</groupId>
     <artifactId>commandlogger</artifactId>
-    <version>1</version>
+    <version>1.0.0</version>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>7</source>
-                    <target>7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -23,12 +23,12 @@
     <repositories>
         <repository>
             <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
         </repository>
-        <!--<repository>
-            <id>papermc</id>
+        <repository>
+            <id>paper-repo</id>
             <url>https://papermc.io/repo/repository/maven-public/</url>
-        </repository>-->
+        </repository>
     </repositories>
 
     <dependencies>
@@ -38,12 +38,6 @@
             <version>1.16.3-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <!--<dependency>
-            <groupId>com.destroystokyo.paper</groupId>
-            <artifactId>paper-api</artifactId>
-            <version>1.16.3-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>-->
     </dependencies>
 
 </project>
