@@ -1,4 +1,4 @@
-package com.creativecommmons.serverspy;
+package com.creativecommmons.commandlogger;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.event.EventHandler;
@@ -56,7 +56,7 @@ public class commandlogger extends JavaPlugin implements Listener {
 
         String fileType = config.getString("output-file-type");
 
-        FileWriter writer = new FileWriter("plugins/serverspy/command-log." + fileType, true);
+        FileWriter writer = new FileWriter("plugins/commandlogger/command-log." + fileType, true);
 
         String simpleDate = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new Date());
         String playerName = event.getPlayer().getName();

@@ -1,4 +1,4 @@
-package com.creativecommmons.serverspy;
+package com.creativecommmons.commandlogger;
 
 import java.io.IOException;
 import java.io.Writer;
