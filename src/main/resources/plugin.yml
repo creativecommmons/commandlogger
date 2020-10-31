@@ -1,3 +1,6 @@
 name: commandlogger
-version: 1.0
+version: 1.0.0
 main: com.creativecommmons.commandlogger.commandlogger
+api-version: 1.16
+author: creativecommmons
+website: https://github.com/creativecommmons/commandlogger
