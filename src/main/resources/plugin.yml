@@ -1,5 +1,5 @@
 name: commandlogger
-version: 1.0.0
+version: ${project.version}
 main: com.creativecommmons.commandlogger.commandlogger
 api-version: 1.16
 author: creativecommmons
